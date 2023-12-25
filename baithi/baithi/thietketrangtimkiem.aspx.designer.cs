@@ -11,7 +11,7 @@ namespace baithi
 {
 
 
-    public partial class Timkiem
+    public partial class thietketrangtimkiem
     {
 
         /// <summary>

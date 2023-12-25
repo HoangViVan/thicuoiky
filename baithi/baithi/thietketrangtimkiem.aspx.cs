@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 
 namespace baithi
 {
-    public partial class Timkiem : System.Web.UI.Page
+    public partial class thietketrangtimkiem : System.Web.UI.Page
     {
         public static string chuoiKN = "Data Source=.;Initial Catalog=QL_SINHVIEN;Integrated Security=True;Encrypt=False";
         public static SqlConnection conn = new SqlConnection(chuoiKN);

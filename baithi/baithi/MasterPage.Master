@@ -45,7 +45,7 @@
                     </td>
                     <td style="width:20%;text-align:center" >
                         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/CapNhatTruongHoc.aspx">Cập nhật trường học</asp:HyperLink><br />
-                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Timkiem.aspx">Thiết kế trang tìm kiếm</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/thietketrangtimkiem.aspx">Thiết kế trang tìm kiếm</asp:HyperLink>
                     </td>
                 </tr>
                 <tr>
