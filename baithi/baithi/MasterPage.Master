@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="baithi.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <style>
+            div{
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                margin: 10px 0;
+            }
+        </style>
+        <div>
+            <table border="1" style="width:100%">
+                <tr>
+                    <td colspan="2">
+                        <div style="display:flex;justify-content:space-between;align-items:center ;text-align:center">
+                            <div style="width:70%;display:flex;flex-direction:column">
+                                <div style="font-size:20px; font-weight:bold">
+                                    Trường Cao Đẳng <br/> Công thương Việt Nam
+                                </div>
+                                <div style="color:#ffd800">
+                                    "Đào tạo những gì doanh nghiệp cần"
+                                </div>
+                            </div>
+                            <div style="width:30%">
+                                <asp:Image ID="Image1" runat="server" Width="150" ImageUrl="~/Image/logo.png"/>
+                            </div>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width:80%">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                    </td>
+                    <td style="width:20%;text-align:center" >
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/CapNhatTruongHoc.aspx">Cập nhật trường học</asp:HyperLink><br />
+                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Timkiem.aspx">Thiết kế trang tìm kiếm</asp:HyperLink>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center">
+                        <table style="width:100%">
+                            <tr>
+                                <td>
+                                    Họ và tên sinh viên: Vi Văn Hoàng
+                                </td>
+                                <td>
+                                    MSSV: 2104CQ270101
+
+                                </td>
+                                <td> 
+                                    Lớp: CCN04.6B 
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Đề thi số: 2   
+
+                                </td>
+                                <td>
+                                    Số báo danh: CCN6B05
+
+                                </td>
+                            </tr>
+                        </table>
+                                        
+                                                  
+                    </td>
+                </tr>
+            </table>
+            
+        </div>
+    </form>
+</body>
+</html>
